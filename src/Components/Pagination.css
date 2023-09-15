@@ -1,0 +1,14 @@
+.active-page{
+  background-color: #cfcfcf;
+  color: black;
+  padding: 4px 9px;
+  border-radius: 5px;
+}
+.page{
+  padding: 4px 9px;
+}
+.page:hover{
+  background-color: #ebebeb;
+  color: black;
+  border-radius: 5px
+}

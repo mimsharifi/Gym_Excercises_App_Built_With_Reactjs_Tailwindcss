@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html , body{
+  box-sizing: border-box;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #dadada;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #979797;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #777777
+}
+
+.swiper-button-next {
+  background-image: url("./assets/icons/right-arrow.png");
+  background-size: 100%;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev {
+  background-image: url("./assets/icons/left-arrow.png");
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
